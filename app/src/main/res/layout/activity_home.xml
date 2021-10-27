@@ -6,4 +6,44 @@
     android:layout_height="match_parent"
     tools:context=".home">
 
+    <ImageButton
+        android:id="@+id/profileButton1"
+        android:layout_width="421dp"
+        android:layout_height="99dp"
+        android:backgroundTint="#CDDC39"
+        app:srcCompat="@drawable/_1__2_"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <ImageButton
+        android:id="@+id/favoriteButton"
+        android:layout_width="169dp"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/okiniiri1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <ImageButton
+        android:id="@+id/profileButton2"
+        android:layout_width="212dp"
+        android:layout_height="153dp"
+        app:srcCompat="@drawable/purofile1"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <ImageButton
+        android:id="@+id/readingButton"
+        android:layout_width="181dp"
+        android:layout_height="142dp"
+        app:srcCompat="@drawable/yomitori1"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <ImageButton
+        android:id="@+id/searchButton2"
+        android:layout_width="178dp"
+        android:layout_height="164dp"
+        app:srcCompat="@drawable/kennsaku"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="442dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
