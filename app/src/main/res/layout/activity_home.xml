@@ -13,7 +13,16 @@
         android:backgroundTint="#CDDC39"
         app:srcCompat="@drawable/_1__2_"
         tools:layout_editor_absoluteX="-5dp"
-        tools:layout_editor_absoluteY="-2dp" />
+        tools:layout_editor_absoluteY="-6dp" />
+
+    <ImageButton
+        android:id="@+id/profileButton"
+        android:layout_width="421dp"
+        android:layout_height="123dp"
+        android:backgroundTint="#CDDC39"
+        app:srcCompat="@drawable/_1__2_"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="616dp" />
 
     <ImageButton
         android:id="@+id/favoriteButton"
@@ -46,4 +55,5 @@
         app:srcCompat="@drawable/kennsaku"
         tools:layout_editor_absoluteX="121dp"
         tools:layout_editor_absoluteY="442dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
