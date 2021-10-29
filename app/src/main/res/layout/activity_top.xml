@@ -6,4 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".top">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/TOP"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/ログイン"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text=""
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="438dp"
+        android:background="#00000000"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text=""
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="438dp"
+        android:background="#00000000"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
