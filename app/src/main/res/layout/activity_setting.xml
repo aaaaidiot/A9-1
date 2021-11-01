@@ -38,7 +38,7 @@
         android:layout_width="376dp"
         android:layout_height="306dp"
         tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="199dp">
+        tools:layout_editor_absoluteY="201dp">
 
         <LinearLayout
             android:layout_width="match_parent"
