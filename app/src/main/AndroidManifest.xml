@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.A91">
         <activity
+            android:name=".setting"
+            android:exported="false" />
+        <activity
+            android:name=".purofil"
+            android:exported="false" />
+        <activity
             android:name=".ui.login.Login"
             android:exported="false"
             android:label="@string/title_activity_login" />

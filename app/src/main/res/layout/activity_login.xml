@@ -54,7 +54,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password"
-        app:layout_constraintVertical_bias="0.215" />
+        app:layout_constraintVertical_bias="0.139" />
 
     <ProgressBar
         android:id="@+id/loading"
@@ -68,15 +68,15 @@
         app:layout_constraintEnd_toEndOf="@+id/password"
         app:layout_constraintStart_toStartOf="@+id/password"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.3"
-        />
+        app:layout_constraintVertical_bias="0.3" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="415dp"
+        android:layout_width="0dp"
         android:layout_height="734dp"
         android:src="@drawable/ログイン画面"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="4dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
