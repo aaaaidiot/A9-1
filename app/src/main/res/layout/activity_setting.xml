@@ -14,4 +14,36 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/__1" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="161dp"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="65dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="25dp"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="376dp"
+        android:layout_height="306dp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="199dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
