@@ -10,6 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.A91">
         <activity
+            android:name=".ui.login.LogingamenActivity"
+            android:exported="false"
+            android:label="@string/title_activity_logingamen" />
+        <activity
+            android:name=".topgamen"
+            android:exported="false" />
+        <activity
             android:name=".Hantei"
             android:exported="false" />
         <activity

@@ -4,12 +4,12 @@ plugins {
 
 android {
     compileSdkVersion 31
-    buildToolsVersion "31.0.0"
+    buildToolsVersion '30.0.2'
 
     defaultConfig {
         applicationId "bunkyo.example.a9_1"
         minSdkVersion 28
-        targetSdkVersion 31
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
 
