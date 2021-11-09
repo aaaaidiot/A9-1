@@ -1,5 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
-    <background android:drawable="@drawable/ic_launcher_background" />
-    <foreground android:drawable="@drawable/ic_launcher_foreground" />
-</adaptive-icon>
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home">
+
+    <ImageButton
+        android:id="@+id/profileButton1"
+        android:layout_width="421dp"
+        android:layout_height="99dp"
+        android:backgroundTint="#CDDC39"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="-6dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="205dp"
+        android:layout_height="154dp"
+        app:srcCompat="@drawable/__13_"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="201dp"
+        android:layout_height="154dp"
+        app:srcCompat="@drawable/__11_"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="206dp"
+        android:layout_height="158dp"
+        app:srcCompat="@drawable/__12_"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="170dp"
+        android:layout_height="173dp"
+        app:srcCompat="@drawable/__14_"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="557dp" />
