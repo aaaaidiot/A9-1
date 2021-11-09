@@ -16,15 +16,6 @@
         tools:layout_editor_absoluteY="-6dp" />
 
     <ImageButton
-        android:id="@+id/profileButton"
-        android:layout_width="421dp"
-        android:layout_height="123dp"
-        android:backgroundTint="#CDDC39"
-        app:srcCompat="@drawable/_1__2_"
-        tools:layout_editor_absoluteX="-5dp"
-        tools:layout_editor_absoluteY="616dp" />
-
-    <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="205dp"
         android:layout_height="154dp"
@@ -55,5 +46,13 @@
         app:srcCompat="@drawable/__14_"
         tools:layout_editor_absoluteX="121dp"
         tools:layout_editor_absoluteY="437dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/home"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="564dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
